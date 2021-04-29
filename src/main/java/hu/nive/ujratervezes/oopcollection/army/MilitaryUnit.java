@@ -2,8 +2,8 @@ package hu.nive.ujratervezes.oopcollection.army;
 
 public abstract class MilitaryUnit {
 
-    int healthPoint;        //életerő pontja
-    int attackDamage;       //támadási sebzése
+    int healthPoint;        
+    int attackDamage;
     boolean isArmored;
 
     public MilitaryUnit(int healthPoint, int attackDamage, boolean isArmored) {
