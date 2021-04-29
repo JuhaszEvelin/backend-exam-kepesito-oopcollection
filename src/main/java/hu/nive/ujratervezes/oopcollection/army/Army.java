@@ -12,11 +12,11 @@ public class Army {
     }
 
     public void damageAll(int damage) {
-       army.stream().forEach(militaryUnit -> militaryUnit.sufferDamage(damage));
+        army.stream().forEach(militaryUnit -> militaryUnit.sufferDamage(damage));
 
-       List<MilitaryUnit> result = new ArrayList<>();
-        for (MilitaryUnit unit:army) {
-            if (unit.getHealthPoint() >= 25){
+        List<MilitaryUnit> result = new ArrayList<>();
+        for (MilitaryUnit unit : army) {
+            if (unit.getHealthPoint() >= 25) {
                 result.add(unit);
             }
         }

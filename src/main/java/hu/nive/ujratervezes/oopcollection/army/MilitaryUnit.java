@@ -2,7 +2,7 @@ package hu.nive.ujratervezes.oopcollection.army;
 
 public abstract class MilitaryUnit {
 
-    int healthPoint;        
+    int healthPoint;
     int attackDamage;
     boolean isArmored;
 
@@ -48,7 +48,7 @@ public abstract class MilitaryUnit {
         isArmored = armored;
     }
 
-    public int getHitPoints(){
-        return this.healthPoint;
+    public int getHitPoints() {
+        return getHealthPoint();
     }
 }

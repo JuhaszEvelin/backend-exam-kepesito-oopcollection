@@ -8,8 +8,9 @@ public class HeavyCavalry extends MilitaryUnit {
         super(150, 20, true);
     }
 
+    @Override
     public int doDamage() {
-        if (isFirstAttack){
+        if (isFirstAttack) {
             isFirstAttack = false;
             return this.attackDamage * 3;
         }
