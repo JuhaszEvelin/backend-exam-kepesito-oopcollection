@@ -1,3 +1,7 @@
 package hu.nive.ujratervezes.oopcollection.army;
 
-public class HeavyCavalry {}
+public class HeavyCavalry extends MilitaryUnit {
+    public HeavyCavalry() {
+        super(150, 50, true);
+    }
+}
